@@ -1,4 +1,4 @@
-const host = "http://localhost:2020";
+const host = process.env.BACKEND_URL;
 
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
