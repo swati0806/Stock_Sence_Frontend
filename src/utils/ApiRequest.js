@@ -1,4 +1,4 @@
-const host = "stocksensebackend-production.up.railway.app";
+const host = "https://stocksensebackend-production.up.railway.app/";
 
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
